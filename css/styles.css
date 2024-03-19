@@ -79,7 +79,17 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 padding: 24px 0;
 display: block;
+}
 
+.current {
+
+}
+.current::after{
+    content: "";
+    background-color: #404bbf;
+    border-radius: 2px;
+    height: 4px;
+    width: 100%;
 }
 
 .nav-link:hover,

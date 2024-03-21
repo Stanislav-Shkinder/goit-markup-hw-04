@@ -274,6 +274,11 @@ background: #fff;
 background: #2e2f42;
 padding-top: 100px;
 padding-bottom: 100px;
+display: flex;
+}
+
+.footer-container{
+    margin-right: 120px;
 }
 
 .logo-footer{
@@ -304,4 +309,22 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 max-width: 264px;
+}
+
+.title-media{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-bottom: 16px;
+}
+.list-media{
+    display: flex;
+    gap: 16px;   
+}
+
+.media-icon:nth-child(1n + 1){
+    width: 40px;
+    height: 40px;
 }

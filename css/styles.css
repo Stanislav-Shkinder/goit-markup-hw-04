@@ -185,12 +185,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 8px;
 }
 
-.section-two-list{
-    display: flex;
-    gap: 24px;
-    margin: auto;
-}
-
 
 .visually-hidden {
     position: absolute;

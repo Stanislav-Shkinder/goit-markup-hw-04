@@ -333,6 +333,7 @@ background: #fff;
 
 .project-card-wrap{
     position: relative;
+    overflow: hidden;
 }
 
 .project-card-wrap-text{
@@ -344,9 +345,10 @@ background: #fff;
     top: 0;
     background: #4d5ae5;
     height: 100%;
-    padding-left: 32px;
-    padding-right: 32px;
-    
+    padding: 40px 32px; 
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .footer{  

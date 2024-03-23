@@ -276,8 +276,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     gap: 24px;
 }
 .team-card-media-icon{
-
+    width: 40px;
+    height: 40px;
 }
+
 .our-team-icon-link{
     fill: #f4f4fd;
 }
@@ -291,6 +293,11 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.media-icon-link:hover,
+.media-icon-link:focus{
+   background-color: #404bbf;
 }
 
 .project-list{
@@ -375,6 +382,5 @@ margin-bottom: 16px;
 }
 
 .media-icon:nth-child(1n + 1){
-    width: 40px;
-    height: 40px;
+    
 }

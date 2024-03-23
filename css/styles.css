@@ -325,10 +325,22 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .project-card:nth-child(1n + 1){
     width: calc((100% - 48px) / 3);
 background: #fff;
+position: relative;
 }
 
 .project-card:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.project-card-wrap-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    position: absolute;
+    top: 0;
+    background: #4d5ae5;
+    height: 300px;
 }
 
 .footer{  
